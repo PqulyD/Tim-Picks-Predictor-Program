@@ -1,2 +1,10 @@
 # Tim-Picks-Predictor-Program
 This program finds the most likely NHL player in a list of players to be used to win free reward points and coffee from the Tim Hortons App
+
+To do this, the program looks at the past 6 games of player data from an NHL api. Looking at stats such as number of goals, number of shots, fatiuge, team proformace, etc, the program takes these individual stats and multiplies them by a scaler. These are thens summed up to find each player's "score". This score tells you how likely they are to score that day. The higher the score the better. A score such as 7 is rare where elite players like Nikitia Kucherov, Nathan MacKinnon, and Connor McDavid have gotten. 
+
+To use this program, you need to open your Tim Hortons app and click on the Tims NHL Challange. If you want to look at the rules you can see it there, but I can ensure you that there is no risk/penalty of gettting a prediction wrong. When you are in the game you will see three lists. List 1 has frequent scorers, list 2 has semi-frequent scorers, and list 3 have infrequent scorers. For transparency, sometimes the game is inaccurate with thier choice of where players belong. An example of this is how Cutter Gauthier is a list 2 player even though he is scoring a lot more than most list 1 players. The most cimminal example if Pavel Dorofeyev and Macklin Celebrini being list 3 players when they should list 1 players. Look at each list and input each player's name with a common and a space to seperate each name. Do this will all three lists to find your three picks. 
+
+This program has accomplished an accuracy of 74% (getting at least 1 pick correct in a day) from the past 46 days (34/36 correct). Also on the monthly leaderboard, I was able to get to the top .54% (3000th/500000) with using this. I make my picks before any of the games start that day to remove bias. But it is up to you if you want to run this before or during games being played. 
+
+If you find anything confusing or have ideas of improvement please let me know. I hope "The Machine" as my friends and I like to call it can help out others and imrpove with other's ideas. 
